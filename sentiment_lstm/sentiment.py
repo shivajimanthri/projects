@@ -1,8 +1,9 @@
 
 import re
 import pickle
+import nltk
 import streamlit as st
-from nltk.corpus import stopwords
+# from nltk.corpus import stopwords
 from tensorflow.keras.models import load_model
 from nltk.tokenize import word_tokenize
 from keras.preprocessing.sequence import pad_sequences
