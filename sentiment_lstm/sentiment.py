@@ -1,7 +1,7 @@
 
 import re
 import pickle
-import nltk
+# import nltk
 import streamlit as st
 # from nltk.corpus import stopwords
 from tensorflow.keras.models import load_model
